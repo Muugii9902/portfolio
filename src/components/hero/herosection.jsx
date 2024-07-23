@@ -29,9 +29,15 @@ const Herosection = () => {
           <p>Available for new projects</p>
         </div>
         <div className="flex py-14 gap-3">
-          <FiGithub className="size-5" />
-          <LuTwitter className="size-5" />
-          <FaFigma className="size-5" />
+          <a href="">
+            <FiGithub className="size-5" />
+          </a>
+          <a href="">
+            <LuTwitter className="size-5" />
+          </a>
+          <a href="">
+            <FaFigma className="size-5" />
+          </a>
         </div>
       </div>
     </div>
