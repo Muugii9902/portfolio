@@ -7,7 +7,7 @@ const menuList = [
 const Menu = () => {
   return (
     <div>
-      <ul className="flex">
+      <ul className="flex gap-3">
         {menuList.map((menu) => (
           <li>
             <a href={menu.link}>{menu.label}</a>
