@@ -2,7 +2,7 @@ import { BsDot } from "react-icons/bs";
 
 const AboutText = () => {
   return (
-    <dev className="w-1/3 pr-12">
+    <dev className=" w-1/3 pr-12 pb-8">
       <h1 className="font-bold text-3xl pt-44">
         Curious about me? Here you have it:
       </h1>

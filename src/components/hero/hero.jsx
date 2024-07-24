@@ -4,7 +4,7 @@ import HeroSectionImg from "./herosection-img";
 const Hero = () => {
   return (
     <>
-      <div className="flex">
+      <div className="flex justify-evenly">
         <Herosection />
         <HeroSectionImg />
       </div>
