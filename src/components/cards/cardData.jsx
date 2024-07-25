@@ -1,4 +1,4 @@
-const CardData = [
+export const cardData = [
   {
     images: <img src="/image/Group.png" alt="logo" />,
     title: "Sr. Frontend Developer",
@@ -24,5 +24,3 @@ const CardData = [
     dates: "Dec 2015 - May 2017",
   },
 ];
-
-export default CardData;
