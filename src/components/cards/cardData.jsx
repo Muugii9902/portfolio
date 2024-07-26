@@ -24,3 +24,23 @@ export const cardData = [
     dates: "Dec 2015 - May 2017",
   },
 ];
+
+// export const workCard = [
+//   {
+//     images: <img src="/image/Picture.png" alt="" />,
+//     title: "UBcab",
+//     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Maecenas nec
+//             urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
+//              faucibus orci luctus et ultrices posuere cubilia curae.",
+//     skils: "Next.js
+//         Typescript
+//         Nest.js
+//         PostgreSQL
+//         Tailwindcss
+//         Figma
+//         Cypress
+//         Storybook
+//         Git"
+
+//   },
+// ];

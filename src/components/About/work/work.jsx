@@ -1,13 +1,11 @@
-const Workcard = () => {
+const { workCard } = require("@/components/cards/cardData");
+
+const WorkList = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <div>
-        <h1></h1>
-        <p></p>
-      </div>
+      {workCard.map((a) => (
+        <WorkList data={a} />
+      ))}
     </div>
   );
 };
