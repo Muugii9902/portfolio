@@ -1,5 +1,3 @@
-const { workCard } = require("@/components/cards/cardData");
-
 const WorkList = () => {
   return (
     <div>

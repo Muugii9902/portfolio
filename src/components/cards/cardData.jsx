@@ -1,3 +1,5 @@
+import { GrShare } from "react-icons/gr";
+
 export const cardData = [
   {
     images: <img src="/image/Group.png" alt="logo" />,
@@ -25,22 +27,23 @@ export const cardData = [
   },
 ];
 
-// export const workCard = [
-//   {
-//     images: <img src="/image/Picture.png" alt="" />,
-//     title: "UBcab",
-//     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Maecenas nec
-//             urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
-//              faucibus orci luctus et ultrices posuere cubilia curae.",
-//     skils: "Next.js
-//         Typescript
-//         Nest.js
-//         PostgreSQL
-//         Tailwindcss
-//         Figma
-//         Cypress
-//         Storybook
-//         Git"
-
-//   },
-// ];
+export const workCard = [
+  {
+    images: <img src="/image/Picture.png" alt="" />,
+    title: "UBcab",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Maecenas necurna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    skils: [
+      "react",
+      "next",
+      "Typescript",
+      "Nest.js",
+      "PostgreSQL",
+      "Tailwindcss",
+      "Figma",
+      "Cypress",
+      "Storybook",
+      "Git",
+    ],
+    logo: <GrShare />,
+  },
+];
