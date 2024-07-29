@@ -1,11 +1,18 @@
-import NavSection from "./nav-section";
+import Navbar from "./navbar";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
 
 const Header = () => {
+  const [modal, setModal] = useState(true);
   return (
-    <header className="flex item-center justify-between px-20 py-4">
-      <h1 className="text-3xl font-bold">MUUGii</h1>
-      <NavSection />
-    </header>
+    <div className="flex justify-between items-center container m-auto pt-4  dark:text-white">
+      <div>
+        <h1 className="text-3xl font-[900] text-[#111827] dark:text-white">
+          Muugii
+        </h1>
+      </div>
+      <Navbar />
+    </div>
   );
 };
 export default Header;

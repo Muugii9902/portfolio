@@ -3,10 +3,10 @@ import { BsDot } from "react-icons/bs";
 const AboutText = () => {
   return (
     <dev className=" w-1/3 pr-12 pb-8">
-      <h1 className="font-bold text-3xl pt-44">
+      <h1 className=" text-3xl pt-44  text-gray-900 font-semibold dark:text-white">
         Curious about me? Here you have it:
       </h1>
-      <p className="py-6">
+      <p className="textsytle">
         I'm a designer turned full stack developer, passionate about React.js
         and Node.js. I excel in blending technical and visual aspects to craft
         exceptional digital products, prioritizing user experience, precise

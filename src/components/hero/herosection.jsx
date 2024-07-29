@@ -10,10 +10,12 @@ const Herosection = () => {
     <div>
       <div className="w-2/5 px-28 py-24">
         <div className="flex gap-3 py-4">
-          <h1 className="font-bold text-4xl">HI,IM' Muugii</h1>
+          <h1 className="font-bold text-4xl  text-gray-900 dark:text-white">
+            HI,IM' Muugii
+          </h1>
           <LuHandMetal className="size-9 text-yellow-300" />
         </div>
-        <p>
+        <p className="text-[16px] text-gray-600 dark:text-white">
           I specialize in full stack development, particularly with React.js and
           Node.js. My main goal is to create exceptional digital experiences
           that are fast, visually appealing, and accessible to everyone. With
@@ -22,21 +24,26 @@ const Herosection = () => {
         </p>
         <div className="flex items-center gap-2 py-3">
           <IoLocationOutline className="size-5" />
-          <p> Ulaanbaatar, Mongolia</p>
+          <p className=" text-gray-600 dark:text-white">
+            {" "}
+            Ulaanbaatar, Mongolia
+          </p>
         </div>
         <div className="flex items-center gap-2">
           <GoDotFill className="text-green-400" />
-          <p>Available for new projects</p>
+          <p className=" text-gray-600 dark:text-white">
+            Available for new projects
+          </p>
         </div>
         <div className="flex py-14 gap-3">
           <a href="">
-            <FiGithub className="size-5" />
+            <FiGithub className="size-5  text-gray-500 dark:text-white" />
           </a>
           <a href="">
-            <LuTwitter className="size-5" />
+            <LuTwitter className="size-5  text-gray-500 dark:text-white" />
           </a>
           <a href="">
-            <FaFigma className="size-5" />
+            <FaFigma className="size-5  text-gray-500 dark:text-white" />
           </a>
         </div>
       </div>
