@@ -1,6 +1,6 @@
 export default function CardExperience({ data }) {
   return (
-    <div className="m-auto flex justify-between w-[896px] mt-52 bg-slate-200 drop-shadow-2xl dark:bg-[#1F2937]">
+    <div className="m-auto flex justify-between w-[896px] p-8 rounded-xl mt-52 bg-slate-200 drop-shadow-2xl dark:bg-[#1F2937]">
       <div className="flex-1">{data.images}</div>
       <div className="flex-1">
         <h1 className="text-2xl font-bold  text-gray-600 dark:text-white">

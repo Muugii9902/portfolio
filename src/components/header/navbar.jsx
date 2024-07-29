@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { IoMoonOutline } from "react-icons/io5";
+import MobileMenu from "./mobile-menu";
 const tags = [
   { name: "About", link: "#about" },
   { name: "Work", link: "#work" },
@@ -39,6 +40,7 @@ const Navbar = () => {
           Download CV
         </button>
       </div>
+      <MobileMenu />
     </nav>
   );
 };
