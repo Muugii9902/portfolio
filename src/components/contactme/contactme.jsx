@@ -16,12 +16,12 @@ const Contactme = () => {
       </p>
       <div className="flex gap-8  items-center text-4xl font-semibold">
         <MdOutlineEmail />
-        <p>unu@pinecone.mn</p>
+        <p>Muugii9902@gmail.com</p>
         <TbBoxMultiple />
       </div>
       <div className="flex gap-8  items-center text-4xl font-semibold">
         <LuPhone />
-        <p>+976 80070498</p>
+        <p>+976 99871929</p>
         <TbBoxMultiple />
       </div>
       <div className="flex flex-col gap-4 justify-center items-center">

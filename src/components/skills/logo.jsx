@@ -1,43 +1,43 @@
 const skillicon = [
   {
     name: "React",
-    icon: "/image/2.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Next.js",
-    icon: "/image/9.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Node.js",
-    icon: "/image/4.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Tailwind",
-    icon: "/image/2.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Typescript",
-    icon: "/image/2.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Javascript",
-    icon: "/image/2.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "React",
-    icon: "/image/2.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Next.js",
-    icon: "/image/9.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Node.js",
-    icon: "/image/4.png",
+    icon: "/image/icon1.png",
   },
   {
     name: "Tailwind",
-    icon: "/image/2.png",
+    icon: "/image/icon1.png",
   },
 ];
 const Icons = () => {
