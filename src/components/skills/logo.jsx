@@ -1,42 +1,38 @@
 const skillicon = [
   {
     name: "React",
-    icon: "/image/icon1.png",
+    icon: "/image/react.png",
   },
   {
     name: "Next.js",
-    icon: "/image/icon1.png",
+    icon: "/image/nextjs.png",
   },
   {
     name: "Node.js",
-    icon: "/image/icon1.png",
+    icon: "/image/nodejs.png",
   },
   {
-    name: "Tailwind",
-    icon: "/image/icon1.png",
+    name: "Tailwind.css",
+    icon: "/image/tailwind.png",
   },
   {
     name: "Typescript",
-    icon: "/image/icon1.png",
+    icon: "/image/type.png",
   },
   {
     name: "Javascript",
-    icon: "/image/icon1.png",
+    icon: "/image/javascript.png",
   },
   {
-    name: "React",
-    icon: "/image/icon1.png",
+    name: "GraphQL",
+    icon: "/image/Graphql.png",
   },
   {
-    name: "Next.js",
-    icon: "/image/icon1.png",
+    name: "MongoDB",
+    icon: "/image/mongodb.png",
   },
   {
-    name: "Node.js",
-    icon: "/image/icon1.png",
-  },
-  {
-    name: "Tailwind",
+    name: "PostgreSQL ",
     icon: "/image/icon1.png",
   },
 ];
