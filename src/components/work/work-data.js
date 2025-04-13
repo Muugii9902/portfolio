@@ -1,8 +1,7 @@
 export const workcard = [
   {
-    webname: "Ub cab",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    name: "Dansduuren.com",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
     skills: [
       "React",
       "Nextjs",
@@ -16,9 +15,8 @@ export const workcard = [
     image: "/image/ubcab.png",
   },
   {
-    webname: "Ub cab",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    name: "Tinder.com",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
     skills: [
       "React",
       "Nextjs",
@@ -29,12 +27,12 @@ export const workcard = [
       "React",
       "React",
     ],
-    image: "/image/bkc2.png",
+    image: "/image/tinder1.png",
   },
   {
-    name: "Mentorhub",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    name: "Dansduuren.com",
+    webname: "Dansduuren.com",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
     skills: [
       "React",
       "Nextjs",
@@ -45,12 +43,11 @@ export const workcard = [
       "React",
       "React",
     ],
-    image: "/image/itom.png",
+    image: "/image/dasnduuren1.png",
   },
   {
-    webname: "iToim",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    name: "Dansduuren.com ADMIN",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
     skills: [
       "React",
       "Nextjs",
@@ -61,8 +58,6 @@ export const workcard = [
       "React",
       "React",
     ],
-    image: "/image/ubcab.png",
+    image: "/image/admin1.png",
   },
-  
-  
 ];
