@@ -1,10 +1,11 @@
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import Label from "./label";
+
 const WorkCard = ({ card, swap }) => {
   return (
     <section id="projects">
       <div
-        className={` flex w-[1440x] h-[480px] mt-12 ${
+        className={`flex w-[1440px] h-[480px] mt-12 ${
           swap ? "" : "flex-row-reverse"
         }`}
       >
@@ -15,18 +16,23 @@ const WorkCard = ({ card, swap }) => {
             alt=""
           />
         </div>
-        <div className=" flex-1 p-12 flex flex-col gap-6 dark:bg-[#111827]">
+        <div className="flex-1 p-12 flex flex-col gap-6 dark:bg-[#111827]">
           <h1 className="text-xl dark:text-white">{card.name}</h1>
           <h1 className="text-xl dark:text-white">{card.wedname}</h1>
           <p className="text-gray-600 dark:text-gray-400">{card.text}</p>
           <div className="flex flex-wrap gap-1">
-            {card.skills.map((skill) => {
-              return <Label text={skill} />;
-            })}
+            {card.skills.map((skill, index) => (
+              <Label key={index} text={skill} />
+            ))}
           </div>
-          <div className="text-2xl font-semibold dark:text-white">
+          <a
+            href={card.links}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-2xl font-semibold dark:text-white hover:text-blue-500 transition"
+          >
             <BsBoxArrowUpRight />
-          </div>
+          </a>
         </div>
       </div>
     </section>

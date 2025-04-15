@@ -3,6 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 import { LuPhone } from "react-icons/lu";
 import { FiGithub } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa6";
 import { LuTwitter } from "react-icons/lu";
 import { FaFigma } from "react-icons/fa";
 
@@ -13,10 +14,7 @@ const Contactme = () => {
       className="container m-auto flex flex-col justify-center items-center gap-4 p-16 dark:text-white"
     >
       <Label text="Contact" />
-      <p>
-        What’s next? Feel free to reach out to me if you're looking for a
-        developer, have a query, or simply want to connect.
-      </p>
+      <p>Хамтын ажиллагаанд нээлттэй байна хүсвэл чөлөөтэй холбогдоорой.</p>
       <div className="flex gap-8  items-center text-4xl font-semibold">
         <MdOutlineEmail />
         <p>Muugii9902@gmail.com</p>
@@ -26,13 +24,12 @@ const Contactme = () => {
         <p>+976 99871929</p>
       </div>
       <div className="flex flex-col gap-4 justify-center items-center">
-        <p>You may also find me on these platforms!</p>
         <div className="flex gap-3">
-          <a href="">
-            <FiGithub className="size-5" />
+          <a href="https://github.com/Muugii9902">
+            <FiGithub className="size-5  text-gray-500 dark:text-white" />
           </a>
-          <a href="">
-            <LuTwitter className="size-5" />
+          <a href="https://www.instagram.com/muugii.ganbaatar.7/">
+            <FaInstagram className="size-5  text-gray-500 dark:text-white" />
           </a>
         </div>
       </div>

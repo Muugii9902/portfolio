@@ -3,6 +3,7 @@ import { LuHandMetal } from "react-icons/lu";
 import { GoDotFill } from "react-icons/go";
 import { FiGithub } from "react-icons/fi";
 import { LuTwitter } from "react-icons/lu";
+import { FaInstagram } from "react-icons/fa6";
 import { FaFigma } from "react-icons/fa";
 
 const Herosection = () => {
@@ -16,34 +17,31 @@ const Herosection = () => {
           <LuHandMetal className="size-9 text-yellow-300" />
         </div>
         <p className="text-[16px] text-gray-600 dark:text-white">
-          I specialize in full stack development, particularly with React.js and
-          Node.js. My main goal is to create exceptional digital experiences
-          that are fast, visually appealing, and accessible to everyone. With
-          over 7 years of experience in web development, I continue to find joy
-          in crafting innovative solutions and designs.
+          Би Fullstake Developer чиглэлээр 2024 ос 2025 онд Pinecone Academy
+          сурж төгссөн. Javascript хэл дээр ажиллаж сурсан. Одоо Frontend болон
+          Backend аль нэг чиглэлээр нь ажиллах сонирхолтой байгаа мөн сурах
+          суралцах зүйл их байгаа.
         </p>
         <div className="flex items-center gap-2 py-3">
-          <IoLocationOutline className="size-5" />
+          <IoLocationOutline className="size-5  text-gray-600 dark:text-white" />
+
           <p className=" text-gray-600 dark:text-white">
             {" "}
             Ulaanbaatar, Mongolia
           </p>
         </div>
-        <div className="flex items-center gap-2">
+        {/* <div className="flex items-center gap-2">
           <GoDotFill className="text-green-400" />
           <p className=" text-gray-600 dark:text-white">
             Available for new projects
           </p>
-        </div>
+        </div> */}
         <div className="flex py-14 gap-3">
-          <a href="">
+          <a href="https://github.com/Muugii9902">
             <FiGithub className="size-5  text-gray-500 dark:text-white" />
           </a>
-          <a href="">
-            <LuTwitter className="size-5  text-gray-500 dark:text-white" />
-          </a>
-          <a href="">
-            <FaFigma className="size-5  text-gray-500 dark:text-white" />
+          <a href="https://www.instagram.com/muugii.ganbaatar.7/">
+            <FaInstagram className="size-5  text-gray-500 dark:text-white" />
           </a>
         </div>
       </div>
